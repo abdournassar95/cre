@@ -1,0 +1,104 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9f2fb;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+}
+.container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.logo img {
+  max-height: 80px;
+}
+h1 {
+  text-align: center;
+  color: #002b5c;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-family: 'Rubik', sans-serif;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 16px;
+}
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #005aa7;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #003e75;
+}
+.result {
+  margin-top: 30px;
+}
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 3px solid #005aa7;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.profile-info p {
+  margin: 0;
+  font-size: 16px;
+}
+.info-box {
+  background-color: #f3f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+.info-box h3 {
+  margin-top: 0;
+  color: #005aa7;
+  text-align: left;
+}
+.info-box p {
+  font-size: 16px;
+  margin: 8px 0;
+  text-align: left;
+}
+.watermark {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+}
