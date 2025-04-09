@@ -7,7 +7,7 @@ const sampleData = {
     photo: "A.JPG",
     certificates: [
       { name: "Basic Safety Training", issue: "2023-01-15", expiry: "2028-01-15" },
-      { name: "Advanced Fire Fighting", issue: "2022-05-10", expiry: "2027-05-10" }
+
     ]
   }
 };
