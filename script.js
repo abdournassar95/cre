@@ -4,13 +4,22 @@ const sampleData = {
     name: "ALI ABDULKADER",
     nationality: "EGYPT",
     rank: "COOK",
-    photo: "ALI.JPG",
+    photo: "A.JPG",
     certificates: [
       { name: "Basic Safety Training", issue: "2023-01-15", expiry: "2028-01-15" },
 
     ]
-  }
-};
+ },
+      "012345": {
+        name: "Elena Vargas",
+        nationality: "Panamanian",
+        rank: "Third Officer",
+        photo: "IP.JPG",
+        certificates: [
+          { name: "GMDSS", issue: "2023-07-01", expiry: "2028-07-01" }
+        ]
+      }
+    };
 
 function searchSeafarer() {
   const code = document.getElementById('seafarerCode').value.trim();
