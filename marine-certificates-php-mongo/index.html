@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Panama Maritime Authority</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Panama Maritime Authority</h1>
+    <input type="text" id="seafarerCode" placeholder="Enter Marine ID">
+    <button onclick="searchSeafarer()">Check</button>
+    <div id="result" style="display:none;">
+      <img id="photo" width="100"><br>
+      <strong>Name:</strong> <span id="name"></span><br>
+      <strong>Nationality:</strong> <span id="nationality"></span><br>
+      <strong>Rank:</strong> <span id="rank"></span><br>
+      <strong>Certificate:</strong> <span id="certName"></span><br>
+      <strong>Issue:</strong> <span id="certIssue"></span><br>
+      <strong>Expiry:</strong> <span id="certExpiry"></span><br>
+    </div>
+  </div>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>
